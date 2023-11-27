@@ -14,29 +14,20 @@ public class MaxHeapMaker {
      */
     public static int[]heapify(int[]input)
     {
-        int[]tempHeap = new int[input.length];
-        int swap=0;
-        ArrayList<Integer> tempList = new ArrayList<>();
-        for(int i=0; i< input.length;i++) {
-            tempList.addLast(input[i]);
-            if();
-        }
+        //int[]tempHeap = new int[input.length];
+        int swap,parent=0;
 
-//        for(int i=0; i< input.length;i++){
-//            tempHeap[i]=input[i];
-//            if (i>0){
-//                for(int j=0; j< input.length;j++){
-//                    if(tempHeap[i]>tempHeap[j]) {
-//                        swap = tempHeap[i];
-//                        tempHeap[i]=tempHeap[j];
-//                        tempHeap[j]=swap;
-//                    }
-//                }
-//        }
+       // ArrayList<Integer> tempList = new ArrayList<>();
 /*
-insert parent
-insert child at parentpos*2 , parentpos*2 + ;
+possibly,
+start rearranging in-place as in the linear time heap initialization
+left child is parent*2 + 1
+right child is parent *2 + 2
+parent is (child-1)/2
+
  */
+
+        parent = (input[input.length]-1)/2;
         return input;
     }
 }
