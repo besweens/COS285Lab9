@@ -18,7 +18,7 @@ public class HeapSort {
         //with maxHeap delete method which
         //returns the maximum value each time
         for(int i = temp.size-1; i >= 0; i--)) {
-            temp[i] = maxHeap.delete;      
+            temp[i] = maxHeap.delete();      
         }
         
        //return sorted array
