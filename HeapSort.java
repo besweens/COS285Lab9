@@ -17,8 +17,10 @@ public class HeapSort {
         //iterate through temp and fill
         //with maxHeap delete method which
         //returns the maximum value each time
-        for(int i = temp.size; i > 0; i--)) {
-            temp[i] = maxHeap.delete;         
+        for(int i = temp.size-1; i >= 0; i--)) {
+            temp[i] = maxHeap.delete;      
+            if(i = 0)
+                break;
         }
         
        //return sorted array
