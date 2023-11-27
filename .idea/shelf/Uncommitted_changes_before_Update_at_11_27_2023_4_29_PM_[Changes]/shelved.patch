@@ -1,0 +1,26 @@
+Index: MaxHeapMaker.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package Lab9;\r\n\r\npublic class MaxHeapMaker {\r\n    /**\r\n     * This method takes in an array of integers and returns a max-heap \r\n     * @param input array of integer values\r\n     * @return input as a max-heap\r\n     */\r\n    public static int[]heapify(int[]input)\r\n    {\r\n        // Your code goes here\r\n        \r\n        return input;\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/MaxHeapMaker.java b/MaxHeapMaker.java
+--- a/MaxHeapMaker.java	(revision 7155814b152830e461e6bbc5fbcdfa239fd0b2f3)
++++ b/MaxHeapMaker.java	(date 1701120199366)
+@@ -1,15 +1,0 @@
+-package Lab9;
+-
+-public class MaxHeapMaker {
+-    /**
+-     * This method takes in an array of integers and returns a max-heap 
+-     * @param input array of integer values
+-     * @return input as a max-heap
+-     */
+-    public static int[]heapify(int[]input)
+-    {
+-        // Your code goes here
+-        
+-        return input;
+-    }
+-}
