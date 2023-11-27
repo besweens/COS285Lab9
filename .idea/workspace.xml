@@ -5,15 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="34c87627-8bf8-4c74-b8b3-7a1e9bece6d3" name="Changes" comment="Begin heapify, add RunningExample.java">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/COS285Lab9.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_11_27_2023_4_29_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_11_27_2023_4_29_PM__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HeapSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab9/HeapSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MaxHeap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab9/MaxHeap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MaxHeapMaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab9/MaxHeapMaker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RunningExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab9/RunningExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/COS285Lab9/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/COS285Lab9/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/COS285Lab9/.idea/COS285Lab9.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/COS285Lab9/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/COS285Lab9/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/COS285Lab9/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/COS285Lab9/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/COS285Lab9/Lab9/HeapSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/COS285Lab9/Lab9/HeapSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/COS285Lab9/Lab9/MaxHeap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/COS285Lab9/Lab9/MaxHeap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/COS285Lab9/Lab9/MaxHeapMaker.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/COS285Lab9/Lab9/MaxHeapMaker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/COS285Lab9/Lab9/RunningExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/COS285Lab9/Lab9/RunningExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/COS285Lab9/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab9/HeapSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab9/HeapSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab9/MaxHeapMaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab9/MaxHeapMaker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab9/RunningExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab9/RunningExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,14 +64,14 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "Ben__task1",
     "jdk.selected.JAVA_MODULE": "corretto-21",
     "last_opened_file_path": "C:/Users/Sweeney",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "onboarding.tips.debug.path": "C:/Users/Sweeney/Documents/GitHub/COS285Lab9/RunningExample.java",
+    "onboarding.tips.debug.path": "C:/Users/Sweeney/Documents/GitHub/COS285Lab9/src/Lab9/RunningExample.java",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -79,6 +86,20 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration name="RunningExample" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="corretto-21" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="Lab9.RunningExample" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lab9.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="COS285Lab9" />
       <method v="2">
@@ -139,6 +160,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="initial commit" />
     <MESSAGE value="Begin heapify, add RunningExample.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="Begin heapify, add RunningExample.java" />
+    <MESSAGE value="Add some syntax fixes for HeapSort, update directory structure and project settings" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add some syntax fixes for HeapSort, update directory structure and project settings" />
   </component>
 </project>
