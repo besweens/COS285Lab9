@@ -13,12 +13,16 @@ public class HeapSort {
         //Initalize maxHeap
         MaxHeap maxHeap = new MaxHeap(input);
         //Create second array list to put values in
-        int[] temp = new[input.size];
-        //iterate through temp and fill
-        //with maxHeap delete method which
-        //returns the maximum value each time
-        for(int i = temp.size-1; i >= 0; i--)) {
-            temp[i] = maxHeap.delete();      
+        //int[] temp = new[input.size]; change size to length (Sweeney)
+        int[] temp = new int[input.length]; //changed declaration
+        /*
+        iterate through temp and fill
+        with maxHeap delete method which
+        returns the maximum value each time
+         */
+        for(int i = temp.length-1; i >= 0; i--) {      //Sweeney - changed temp.size to temp.length
+
+            temp[i] = maxHeap.delete();
         }
         
        //return sorted array
