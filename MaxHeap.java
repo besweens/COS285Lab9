@@ -33,7 +33,7 @@ public class MaxHeap {
         for (int i = 0; i < newData.length; ++i)
             newData[i] = getData()[i];
 
-        //update the data to match the new data with the deletion
+        //update the data to include the deletion
         setData(newData);
 
         //return the deleted value
@@ -43,10 +43,22 @@ public class MaxHeap {
     /**
      * Adds new item to the max-heap
      * @param newData the input value to be added to the max-heap
+     * @author abigail pitcairn
      */
     public void add(int newData)
     {
-        // Your code goes here
+        //declare a new array with size one more than starting data
+        int[] newArray = new int[getData().length + 1];
+
+        //copy over original data to resized array
+        for (int i = 0; i < newArray.length; ++i)
+            newArray[i] = getData()[i];
+
+        //add the new data to the new array
+        newArray[newArray.length-1] = newData;
+
+        //update the data to include the addition
+        setData(newArray);
     }
 
     /**
