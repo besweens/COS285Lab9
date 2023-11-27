@@ -7,13 +7,21 @@ public class HeapSort {
      * @param input array of integer items
      * @return sorted array
      */
+    //Silas Code
     public static int[] sort(int[]input)
     {
+        //Initalize maxHeap
         MaxHeap maxHeap = new MaxHeap(input);
-        // Your code goes here
+        //Create second array list to put values in
+        int[] temp = new[input.size];
+        //iterate through temp and fill
+        //with maxHeap delete method which
+        //returns the maximum value each time
+        for(int i = temp.size; i > 0; i--)) {
+            temp[i] = maxHeap.delete;         
+        }
         
-        
-        // You might change this line and return the sorted array
-        return input;
+       //return sorted array
+        return temp;
     }
 }
